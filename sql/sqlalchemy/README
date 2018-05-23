@@ -1,0 +1,2 @@
+sudo pip install sqlalcheme
+Demo is a case inherting SQLORM to operate database

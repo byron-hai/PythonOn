@@ -1,0 +1,17 @@
+=====================================================================
+Installation on Ubuntu:
+    sudo apt-get install mysql-server libmysqlclient-dev mysql-python
+
+=====================================================================
+Create user:
+    CREATE USER 'name@localhost' IDENTIFIED BY 'password';
+    Note: if there're special characters in name or in host, quote like
+          'name_1'@localhost;
+
+Grant permission:
+    GRANT ALL ON db1.* TO 'name@localhost';
+
+Delete a user:
+    DROP USER 'name@localhost';
+===================================================================== 
+
