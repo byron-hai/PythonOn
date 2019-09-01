@@ -4,7 +4,7 @@
 @ Author: Byron
 @ Date: 
 """
-from linkedList import Node, LinkedList
+from LinkedList.singly_linkedList import Node, LinkedList
 
 
 if __name__ == '__main__':
