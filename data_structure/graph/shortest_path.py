@@ -36,7 +36,7 @@ if __name__ == "__main__":
              'G': ['E']}
 
     r1 = search_graph(graph, 'A', 'F')
-    #print('A -> F: ', ' -> '.join(r1))
+    # print('A -> F: ', ' -> '.join(r1))
     print(r1)
     r2 = search_graph(graph, 'A', 'G')
     for r in r2:

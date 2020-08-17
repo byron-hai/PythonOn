@@ -1,0 +1,11 @@
+collections
+1.namedtuple(): 生成可以使用名字来访问元素内容的tuple子类
+2.deque: 双端队列，可以快速的从另外一侧追加和推出对象
+  a = deque()
+  a) deque(list_queue)
+  b) appendleft(item)
+  c) popleft()
+  d) a.count()
+3.Counter: 计数器，主要用来计数
+4.OrderedDict: 有序字典
+5.defaultdict: 带有默认值的字典

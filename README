@@ -1,8 +1,0 @@
-Develoment on Ubuntu16.04
-1) For python2.7 install pip
-    sudo apt-get install python-pip
-
-1) For python3.0 or up
-    sudo apt-get install python3-pip
-
-

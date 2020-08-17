@@ -15,6 +15,7 @@ class Node:
 class LinkedList:
     def __init__(self):
         self._head = None
+
     @property
     def is_empty(self):
         return False if self._head else True
@@ -38,10 +39,10 @@ class LinkedList:
         if self.is_empty:
             self.head_add(item)
         else:
-        cur = self._head
-        while cur.next:
-            cur = cur.next
-        cur.next = new_node
+            cur = self._head
+            while cur.next:
+                cur = cur.next
+            cur.next = new_node
 
     def travel(self):
         cur = self._head
