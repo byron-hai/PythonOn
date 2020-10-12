@@ -44,11 +44,13 @@ class LinkedList:
                 cur = cur.next
             cur.next = new_node
 
-    def travel(self):
-        cur = self._head
-        while cur:
-            print(cur.data)
-            cur = cur.next
+    def traverse(self, head):
+        if not head:
+            return
+
+        while head:
+            print(head.data)
+            head = head.next
 
     def insert(self, pos, item):
         pass
